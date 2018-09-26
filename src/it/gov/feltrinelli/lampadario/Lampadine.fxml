@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.gov.feltrinelli.lampadario.LampadineController">
+   <center>
+      <HBox BorderPane.alignment="CENTER">
+         <children>
+            <VBox>
+               <children>
+                  <Circle fx:id="shapeOne" fill="WHITE" radius="22.0" smooth="false" stroke="BLACK" strokeType="INSIDE">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Circle>
+                  <Button fx:id="btnOne" mnemonicParsing="false" onAction="#onBtnOne" text="on/off">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <Circle fx:id="shapeTwo" fill="WHITE" radius="22.0" stroke="BLACK" strokeType="INSIDE">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Circle>
+                  <Button fx:id="btnTwo" mnemonicParsing="false" onAction="#onTwo" text="on/off">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <Circle fx:id="shapeThree" fill="WHITE" radius="22.0" stroke="BLACK" strokeType="INSIDE">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Circle>
+                  <Button fx:id="btnThree" mnemonicParsing="false" onAction="#onThree" text="on/off">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+            <VBox>
+               <children>
+                  <Circle fx:id="shapeFour" fill="WHITE" radius="22.0" stroke="BLACK" strokeType="INSIDE">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </VBox.margin>
+                  </Circle>
+                  <Button fx:id="btnFour" mnemonicParsing="false" onAction="#onFour" text="on/off">
+                     <VBox.margin>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="10.0" />
+                     </VBox.margin>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </center>
+   <top>
+      <Label text="Lampadario Virtuale" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="20.0" top="10.0" />
+         </BorderPane.margin>
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+   </top>
+</BorderPane>
