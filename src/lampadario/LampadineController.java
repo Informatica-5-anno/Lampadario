@@ -2,7 +2,7 @@
  * Sample Skeleton for 'Lampadine.fxml' Controller Class
  */
 
-package it.gov.feltrinelli.lampadario;
+package lampadario;
 
 import java.net.URL;
 import java.util.ResourceBundle;

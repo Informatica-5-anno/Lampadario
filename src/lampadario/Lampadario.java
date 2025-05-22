@@ -1,4 +1,4 @@
-package it.gov.feltrinelli.lampadario;
+package lampadario;
 
 import javafx.scene.paint.Color;
 

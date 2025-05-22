@@ -1,4 +1,4 @@
-package it.gov.feltrinelli.lampadario;
+package lampadario;
 	
 import javafx.application.Application;
 import javafx.stage.Stage;
