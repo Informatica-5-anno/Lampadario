@@ -1,7 +1,3 @@
-/**
- * Sample Skeleton for 'Lampadine.fxml' Controller Class
- */
-
 package lampadario;
 
 import java.net.URL;
